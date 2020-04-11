@@ -3,7 +3,7 @@
   width: 100%;
   max-height: 500px;
   height: 100%;
-  margin: 15vh auto;
+  margin: 5vh auto;
   text-align: center;
 }
 h1{
@@ -28,6 +28,7 @@ h1{
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
+  font-weight: bold;
 }
 .containerForm .addForm button{
   margin-top: 10px;
@@ -46,4 +47,11 @@ h1{
 .containerForm .addForm button:active{
   margin-top: 12px;
   border-bottom: none;
+}
+div.table{
+  margin-top: 50px;
+  width: 100%;
+  /* max-height: 50px; */
+  height: 100px;
+  border: 1px solid #715c95;
 }

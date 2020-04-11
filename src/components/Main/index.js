@@ -1,9 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './style.css';
-import FormAdd from '../FormAdd';
 
 
-  
 function Main(props){
   props = {
     name : 'henrico'

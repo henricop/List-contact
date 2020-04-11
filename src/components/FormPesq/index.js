@@ -4,19 +4,14 @@ import './style.css';
 function FormAdd(){
   return(
     <div className="containerForm">
-      <h1>Adicionar um novo contato</h1>
+      <h1>Pesquisar contato</h1>
       <form className="addForm">
-        <label>Nome</label>
-        <input type="text" placeholder="Digite um nome"/>
-
         <label>Email</label>
         <input type="text" placeholder="Digite um email"/>
-
-        <label>Senha</label>
-        <input type="password" placeholder="Digite uma senha"/>
-
-        <button type="submit">Adicionar Contato</button>
-
+        <button type="submit">Procurar Contato</button>
+        <div className="table">
+          <h1>Aqui vai a tabela</h1>
+        </div>
       </form>
     </div>
   );
