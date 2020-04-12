@@ -1,4 +1,4 @@
-.containerForm{
+.containerFormSearch{
   max-width: 700px;
   width: 100%;
   max-height: 500px;
@@ -11,8 +11,13 @@ h1{
   font-size: 18px;
   text-decoration: underline;
 }
+.link-search{
+  position: absolute;
+  margin-left: 50px;
+  bottom: 50px;
+}
 
-.containerForm .addForm{
+.containerFormSearch .addFormSearch{
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -20,31 +25,33 @@ h1{
   align-items: center;
   
 }
-.containerForm .addForm label{
+.containerFormSearch .addFormSearch label{
   font-size: 5vh;
 }
-.containerForm .addForm input{
+.containerFormSearch .addFormSearch input{
   width: 70%;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   font-weight: bold;
 }
-.containerForm .addForm button{
-  margin-top: 10px;
+.containerFormSearch .addFormSearch button.button-search{
   padding: 15px;
   border-radius: 10px;
   background: #715c95;
   border: none;
   color: #fff;
   border-bottom: 2px solid #5a4a77;
+  position: absolute;
+  bottom: 50px;
+
 }
-.containerForm .addForm button:hover{
+.containerFormSearch .addFormSearch button.button-search:hover{
   cursor: pointer;
   background-color: #6f559c;
   
 }
-.containerForm .addForm button:active{
+.containerFormSearch .addFormSearch button.button-search:active{
   margin-top: 12px;
   border-bottom: none;
 }

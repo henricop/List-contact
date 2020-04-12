@@ -3,28 +3,35 @@
   width: 100%;
   max-height: 500px;
   height: 100%;
-  margin: 15vh auto;
+  margin: 5vh auto;
   text-align: center;
+  
 }
 h1{
   font-weight: bold;
   font-size: 18px;
   text-decoration: underline;
 }
+.link-add{
+  position: absolute;
+  bottom: 50px;
+  margin-left: 50px;
+}
+
 
 .containerForm .addForm{
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 20px;
   align-items: center;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: dashed #fff8;
+  padding: 10px;
 }
 .containerForm .addForm label{
   font-size: 5vh;
 }
 .containerForm .addForm input{
-  width: 70%;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -37,6 +44,8 @@ h1{
   border: none;
   color: #fff;
   border-bottom: 2px solid #5a4a77;
+  grid-column-start:1;
+  grid-column-start:2;
 }
 .containerForm .addForm button:hover{
   cursor: pointer;
@@ -46,4 +55,59 @@ h1{
 .containerForm .addForm button:active{
   margin-top: 12px;
   border-bottom: none;
+}
+
+div form div.nome{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+}
+div form div.nome input{
+  width: 90%;
+}
+div form div.email{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+}
+div form div.email input{
+  width: 90%;
+}
+div form div.end{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+}
+
+div.end{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+div.end label{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  width: 100%;
+}
+
+div form div.end .bairro{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 90%;
+  margin-left: 30px ;
+  
+}
+div form div.end .rua{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  width: 99%;
+}
+div form div.end .numb{
+  width: 60%;
+}
+div form div.frase{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+div form div.frase input{
+  width: 90%;
 }

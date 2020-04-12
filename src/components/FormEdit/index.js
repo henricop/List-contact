@@ -5,10 +5,12 @@ import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 import {FiArrowLeft} from 'react-icons/fi';
 
-function FormAdd(){
+
+
+function FormEdit(){
   return(
     <>
-    <Header/>
+      <Header/>
       <div className="containerFormSearch">
         <h1>Pesquisar contato</h1>
         <form className="addFormSearch">
@@ -17,14 +19,15 @@ function FormAdd(){
           <div className="table">
             <h1>Aqui vai a tabela</h1>
           </div>
-          <button type="submit" className="button-search">Verificar Contato</button>
+          <Link to="/alter"><button type="submit" className='button-edit'>Confirmar</button></Link>
         </form>
       </div>
       <Link to="/" className="link-search">
         <FiArrowLeft size={36} color='#715c95' />
       </Link>
-    <Footer/>
+      <Footer/>
     </>
   );
 }
-export default FormAdd;
+
+export default FormEdit;

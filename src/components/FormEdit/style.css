@@ -1,0 +1,23 @@
+.containerFormSearch .addFormSearch button.button-edit{
+  padding: 15px;
+  border-radius: 10px;
+  background: #715c95;
+  border: none;
+  color: #fff;
+  border-bottom: 2px solid #5a4a77;
+  
+
+}
+.containerFormSearch .addFormSearch button.button-edit:hover{
+  cursor: pointer;
+  background-color: #6f559c;
+  
+}
+.containerFormSearch .addFormSearch button.button-edit:active{
+  margin-top: 12px;
+  border-bottom: none;
+}
+
+.containerFormSearch .addFormSearch div.table{
+  height: 250px;
+}

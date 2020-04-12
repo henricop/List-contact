@@ -1,19 +1,11 @@
 import React from 'react';
+import Routes from './routes';
 import './style.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
-// import FormAdd from './components/FormAdd';
-// import FormPesq from './components/FormPesq';
-
 
 function App(){
   return (
     <div className="App">
-      <Header className="navbar bg-primery" />
-      <Main />
-      {/* <FormPesq/> */}
-      <Footer />
+      <Routes/>
     </div>
   );
 }
