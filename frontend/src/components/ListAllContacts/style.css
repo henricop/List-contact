@@ -1,5 +1,5 @@
 .containerall{
-  max-width: 800px;
+  max-width: 1200px;
   max-height: 500px;
   width: 100%;
   height: 500px;
@@ -11,10 +11,20 @@
   margin: 10px auto;
 }
 div div.table{
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
   height: 90%;
+  border: none;
+
 }
 div div.table p{
   margin: 5px;
+}
+ul {
+  list-style: none;
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
 }

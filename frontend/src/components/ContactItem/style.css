@@ -1,0 +1,48 @@
+h1.h1-item{
+  text-decoration: none;
+  font-size: 18px;
+}
+hr{
+  width: 80%;
+  margin-top: 0;
+}
+div.container-item {
+  background:none;
+    color: #d8d8d8;
+    max-width: 300px;
+    width:100%;
+    border: 1px solid #715c95;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  div.container-item:hover{
+    background: #715c95;
+    cursor: pointer;
+  }
+
+  p.p-item{
+    margin-top: 0;
+    width: 280px;
+    text-align: center;
+    word-break: break-all;
+    font-size: 14px;
+    
+  }
+  p.p-itemrua{
+    margin-top: 0;
+    width: 280px;
+    word-break: break-all;
+    text-align: center;
+    font-size: 14px;
+  }
+  p.p-itemfrase{
+    width: 280px;
+    word-break: break-all;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    font-size: 14px;
+  }
